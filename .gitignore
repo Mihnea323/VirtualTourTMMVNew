@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Allow only the important Unity project folders
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+
+# Allow all contents inside those folders
+!/Assets/**
+!/Packages/**
+!/ProjectSettings/**
+
+# But exclude HDR panorama/image files anywhere
+*.hdr
+*.HDR
+
+# Allow the gitignore file itself
+!.gitignore
